@@ -1,0 +1,21 @@
+name: Add Files to Release
+on:
+  release:
+    types: created
+
+
+jobs:
+  zip_file:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Create Zipfile
+        uses: darshitsri/zip-release@v3
+        with:
+          filename: endgame_expanded.zip
+          path: endgame_expanded
+      - name: Upload Artifact
+        uses: actions/upload-artifact@v7.0.0
+        with:
+          path: endgame_expanded.zip
+          
+        
