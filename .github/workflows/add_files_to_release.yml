@@ -6,10 +6,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Create Zipfile
-        uses: darshitsri/zip-release@v3
+        uses: TheDoctor0/zip-release@0.7.6
         with:
           filename: endgame_expanded.zip
           path: /home/runner/work/endgame-expanded/endgame-expanded/endgame_expanded
+          type: zip
       - name: Upload Artifact
         uses: actions/upload-artifact@v7.0.0
         with:
