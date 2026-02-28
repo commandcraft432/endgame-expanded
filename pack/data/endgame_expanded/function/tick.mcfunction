@@ -78,7 +78,7 @@ execute if entity @e[type=ender_dragon] in the_end positioned 0 128 0 run scoreb
 execute if entity @e[type=ender_dragon] in the_end positioned 0 128 0 as @a[distance=..191,predicate=endgame_expanded:wearing_rocket_boots] run attribute @s gravity modifier remove endgame_expanded:flying
 
 # Particles
-execute as @a[scores={endgame_expanded.hover_enabled=0},predicate=endgame_expanded:key_pressed/jump] at @s run particle minecraft:white_smoke ~ ~ ~ 0 0 0 0.1 5 normal @a[scores={endgame_expanded.fly_particles_enabled=1}]
+execute as @a[scores={endgame_expanded.hover_enabled=0},predicate=endgame_expanded:key_pressed/jump,predicate=endgame_expanded:wearing_rocket_boots] at @s run particle minecraft:white_smoke ~ ~ ~ 0 0 0 0.1 5 normal @a[scores={endgame_expanded.fly_particles_enabled=1}]
 execute as @a[predicate=endgame_expanded:is_flying,predicate=!endgame_expanded:key_pressed/sneak] at @s run particle minecraft:white_smoke ~ ~ ~ 0 0 0 0.1 5 normal @a[scores={endgame_expanded.fly_particles_enabled=1}]
 
 
