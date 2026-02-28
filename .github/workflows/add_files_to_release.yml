@@ -11,13 +11,11 @@ jobs:
       - name: Get Repo
         uses: actions/checkout@v6.0.2
       - name: Create Zipfile
-        uses: TheDoctor0/zip-release@0.7.6
+        uses: nguyenquyhy/zip-release@v0.3.0
         with:
           filename: endgame_expanded.zip
           path: /home/runner/work/endgame-expanded/endgame-expanded/endgame_expanded
-          directory: /home/runner/work/endgame-expanded/endgame-expanded/endgame_expanded
-          type: zip
-          command: cd /home/runner/work/endgame-expanded/endgame-expanded/endgame_expanded
+          workingDirectory: /home/runner/work/endgame-expanded/endgame-expanded/endgame_expanded
       - name: Upload Artifact
         uses: actions/upload-artifact@v7.0.0
         with:
