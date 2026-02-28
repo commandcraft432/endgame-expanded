@@ -1,0 +1,2 @@
+$summon marker $(x) $(y) $(z) {data:{"endgame_expanded:temp_entity_group_pos_change":True}}
+data modify entity @e[type=marker,nbt={data:{"endgame_expanded:temp_entity_group_pos_change":True}},limit=1] Rotation set from entity @s Rotation

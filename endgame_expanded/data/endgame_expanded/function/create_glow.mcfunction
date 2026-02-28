@@ -1,0 +1,3 @@
+# Example Command (tweak for your needs):
+# function endgame_expanded:create_glow {random_rotate: true, color: [1, 0, 0], scale: 1, dissipate: true, scale_grow: 0, age: -1}
+$summon item_display ~ ~ ~ {data:{"endgame_expanded:particle_data":{random_rotate:$(random_rotate)b,dissipate:$(dissipate)b,age:$(age),scale_grow:$(scale_grow)}, interpolation_duration:50,teleport_duration:50, "endgame_expanded:particle_initial": true},brightness:{sky:15,block:15},transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[$(scale),$(scale),$(scale)]},item:{id:"minecraft:leather_horse_armor",count:1,components:{item_model:"endgame_expanded:glow",dyed_color:$(color)}}}

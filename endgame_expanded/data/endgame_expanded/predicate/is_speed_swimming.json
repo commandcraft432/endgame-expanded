@@ -1,0 +1,20 @@
+
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "flags": {
+      "is_in_water": true
+    },
+    "equipment": {
+      "feet": {
+        "items": "minecraft:iron_boots",
+        "components": {
+          "minecraft:custom_data": {
+            "endgame_expanded:item": "rocket_boots"
+          }
+        }
+      }
+    }
+  }
+}

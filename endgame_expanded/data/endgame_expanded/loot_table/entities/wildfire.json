@@ -1,0 +1,64 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:crossbow",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "endgame_expanded:infernal_crossbow",
+                "minecraft:item_name": {"translate": "endgame_expanded.item.infernal_crossbow"},
+                "minecraft:unbreakable": {},
+                "minecraft:custom_data": {
+                  "endgame_expanded:item": "infernal_crossbow",
+                  "$jade:stack": {"id":"endgame_expanded:infernal_crossbow"}
+                },
+                "minecraft:enchantments": {
+                  "minecraft:quick_charge": 5
+                },
+                "minecraft:enchantment_glint_override": false
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bonus_rolls": 0,
+      "conditions": [],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 2,
+                "min": 1
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 2,
+                "min": 1
+              },
+              "enchantment": "minecraft:looting",
+              "function": "minecraft:enchanted_count_increase"
+            }
+          ],
+          "name": "minecraft:blaze_rod"
+        }
+      ],
+      "rolls": 10
+    }
+  ],
+  "random_sequence": "minecraft:entities/breeze"
+}

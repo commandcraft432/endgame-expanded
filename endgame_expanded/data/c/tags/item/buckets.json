@@ -1,0 +1,10 @@
+{
+  "values": [
+    "bucket",
+    "water_bucket",
+    "lava_bucket",
+    "milk_bucket",
+    "powder_snow_bucket",
+    "#c:buckets/entity_water"
+  ]
+}

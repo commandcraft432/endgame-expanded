@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:lapis_lazuli",
+    "minecraft:lapis_lazuli",
+    "minecraft:book",
+    "amethyst_shard"
+  ],
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "components": {
+      "minecraft:custom_data": {
+        "endgame_expanded:enchantment_tier": "amythest"
+      },
+      "minecraft:item_model": "endgame_expanded:amythest_enchanted_book"
+    }
+  }
+}

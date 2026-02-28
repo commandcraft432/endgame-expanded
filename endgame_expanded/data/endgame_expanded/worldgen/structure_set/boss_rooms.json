@@ -1,0 +1,21 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spread_type": "linear",
+    "salt": 0,
+    "frequency_reduction_method": "legacy_type_2",
+    "frequency": 0.09,
+    "separation": 8,
+    "spacing": 10
+  },
+  "structures": [
+    {
+      "structure": "endgame_expanded:spider_cave",
+      "weight": 1
+    },
+    {
+      "structure": "endgame_expanded:storm_arena",
+      "weight": 1
+    }
+  ]
+}
