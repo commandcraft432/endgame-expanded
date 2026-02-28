@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": "minecraft:nether_star",
+  "base": "minecraft:netherite_spear",
+  "result": {
+    "id": "minecraft:netherite_spear",
+    "components": {
+      "minecraft:item_model": "endgame_expanded:infernal_spear",
+      "minecraft:item_name": {
+        "translate": "endgame_expanded.item.infernal_spear"
+      },
+      "minecraft:attribute_modifiers": [
+        {
+          "type": "minecraft:attack_damage",
+          "id": "minecraft:base_attack_damage",
+          "amount": 8,
+          "operation": "add_value",
+          "slot": "mainhand"
+        },
+        {
+          "type": "minecraft:attack_speed",
+          "id": "minecraft:base_attack_speed",
+          "amount": -3.17,
+          "operation": "add_value",
+          "slot": "mainhand"
+        }
+      ],
+      "minecraft:custom_data":{"$jade:stack":{"id":"endgame_expanded:infernal_spear"}} 
+    }
+  },
+  "template": "minecraft:netherite_upgrade_smithing_template"
+}

@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": "minecraft:nether_star",
+  "base": "minecraft:netherite_leggings",
+  "result": {
+    "id": "minecraft:netherite_leggings",
+    "components": {
+      "minecraft:item_model": "endgame_expanded:infernal_leggings",
+      "minecraft:item_name": {
+        "translate": "endgame_expanded.item.infernal_leggings"
+      },
+      "minecraft:attribute_modifiers": [
+        {
+          "type": "minecraft:armor",
+          "id": "minecraft:armor.leggings",
+          "amount": 6,
+          "operation": "add_value",
+          "slot": "legs"
+        },
+        {
+          "type": "minecraft:armor_toughness",
+          "id": "minecraft:armor.leggings",
+          "amount": 8,
+          "operation": "add_value",
+          "slot": "legs"
+        },
+        {
+          "type": "minecraft:knockback_resistance",
+          "id": "minecraft:armor.leggings",
+          "amount": 0.2,
+          "operation": "add_value",
+          "slot": "legs"
+        }
+      ],
+      "minecraft:equippable": {
+        "slot": "legs",
+        "asset_id": "endgame_expanded:infernal"
+      },
+      "minecraft:custom_data":{"$jade:stack":{"id":"endgame_expanded:infernal_leggings"}} 
+    }
+  },
+  "template": "minecraft:netherite_upgrade_smithing_template"
+}

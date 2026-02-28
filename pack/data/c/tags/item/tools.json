@@ -1,0 +1,19 @@
+{
+  "values": [
+    "#minecraft:axes",
+    "#minecraft:hoes",
+    "#minecraft:pickaxes",
+    "#minecraft:shovels",
+    "#minecraft:spears",
+    "#minecraft:swords",
+    "bow",
+    "crossbow",
+    "brush",
+    "fishing_rod",
+    "flint_and_steel",
+    "shears",
+    "shield",
+    "trident",
+    "mace"
+  ]
+}

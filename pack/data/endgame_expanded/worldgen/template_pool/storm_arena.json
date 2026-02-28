@@ -1,0 +1,15 @@
+{
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "endgame_expanded:storm_arena",
+        "processors": "empty",
+        "projection": "rigid",
+        "override_liquid_settings": "ignore_waterlogging"
+      },
+      "weight": 1
+    }
+  ],
+  "fallback": "minecraft:empty"
+}

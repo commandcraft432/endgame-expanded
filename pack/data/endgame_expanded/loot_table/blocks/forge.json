@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0,
+      "functions": [
+        {
+          "function": "minecraft:set_components",
+          "components": {
+            "minecraft:entity_data": {
+              "id": "minecraft:interaction",
+              "data": {
+                "initial": true
+              },
+              "width": 1.02,
+              "height": 1.02
+            },
+            "minecraft:item_model": "endgame_expanded:forge",
+            "minecraft:item_name": "Forge"
+          }
+        }
+      ],
+      "conditions": [],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bat_spawn_egg",
+          "conditions": [],
+          "functions": []
+        }
+      ],
+      "rolls": 1
+    }
+  ]
+}

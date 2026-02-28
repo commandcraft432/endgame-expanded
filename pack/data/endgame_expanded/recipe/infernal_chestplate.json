@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": "minecraft:nether_star",
+  "base": "minecraft:netherite_chestplate",
+  "result": {
+    "id": "minecraft:netherite_chestplate",
+    "components": {
+      "minecraft:item_model": "endgame_expanded:infernal_chestplate",
+      "minecraft:item_name": {
+        "translate": "endgame_expanded.item.infernal_chestplate"
+      },
+      "minecraft:attribute_modifiers": [
+        {
+          "type": "minecraft:armor",
+          "id": "minecraft:armor.chestplate",
+          "amount": 8,
+          "operation": "add_value",
+          "slot": "chest"
+        },
+        {
+          "type": "minecraft:armor_toughness",
+          "id": "minecraft:armor.chestplate",
+          "amount": 8,
+          "operation": "add_value",
+          "slot": "chest"
+        },
+        {
+          "type": "minecraft:knockback_resistance",
+          "id": "minecraft:armor.chestplate",
+          "amount": 0.2,
+          "operation": "add_value",
+          "slot": "chest"
+        }
+      ],
+      "minecraft:equippable": {
+        "slot": "chest",
+        "asset_id": "endgame_expanded:infernal"
+      },
+      "minecraft:custom_data":{"$jade:stack":{"id":"endgame_expanded:infernal_chestplate"}} 
+    }
+  },
+  "template": "minecraft:netherite_upgrade_smithing_template"
+}

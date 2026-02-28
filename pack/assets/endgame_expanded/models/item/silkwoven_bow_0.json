@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/bow",
+  "textures": {
+    "layer0": "endgame_expanded:item/silkwoven_bow_0"
+  }
+}
