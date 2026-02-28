@@ -9,7 +9,7 @@ jobs:
         uses: darshitsri/zip-release@v3
         with:
           filename: endgame_expanded.zip
-          path: endgame_expanded
+          path: ./endgame_expanded
       - name: Upload Artifact
         uses: actions/upload-artifact@v7.0.0
         with:
