@@ -15,7 +15,7 @@ jobs:
       - name: Create Zipfile
         uses: montudor/action-zip@v1.0.0
         with:
-          args: zip -qq -r endgame_expanded.zip *
+          args: zip -qq -r endgame_expanded.zip . -i *
       - name: Upload Artifact
         uses: actions/upload-artifact@v7.0.0
         with:
