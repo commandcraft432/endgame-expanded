@@ -10,12 +10,12 @@ jobs:
     steps:
       - name: Get Repo
         uses: actions/checkout@v6.0.2
+      - name: cd to datapack folder
+        run: cd /home/runner/work/endgame-expanded/endgame-expanded/endgame_expanded
       - name: Create Zipfile
-        uses: nguyenquyhy/zip-release@v0.3.0
+        uses: montudor/action-zip@v1.0.0
         with:
-          filename: endgame_expanded.zip
-          path: /home/runner/work/endgame-expanded/endgame-expanded/endgame_expanded
-          workingDirectory: /home/runner/work/endgame-expanded/endgame-expanded/endgame_expanded
+          args: zip -qq -r endgame_expanded.zip *
       - name: Upload Artifact
         uses: actions/upload-artifact@v7.0.0
         with:
