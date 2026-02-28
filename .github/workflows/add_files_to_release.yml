@@ -10,6 +10,7 @@ jobs:
         with:
           filename: endgame_expanded.zip
           path: /home/runner/work/endgame-expanded/endgame-expanded/endgame_expanded
+          directory: /home/runner/work/endgame-expanded/endgame-expanded/endgame_expanded
           type: zip
       - name: Upload Artifact
         uses: actions/upload-artifact@v7.0.0
