@@ -15,7 +15,7 @@ jobs:
       - name: Create Zipfile
         uses: montudor/action-zip@v1.0.0
         with:
-          args: zip -qq -r endgame_expanded.zip . -i *
+          args: zip -qq -r endgame_expanded.zip /home/runner/work/endgame-expanded/endgame-expanded/endgame_expanded -i *
       - name: Show Tree
         uses: jaywcjlove/github-action-folder-tree@v1.2.0
         with:
@@ -23,7 +23,7 @@ jobs:
       - name: Upload Artifact
         uses: actions/upload-artifact@v7.0.0
         with:
-          path: /home/runner/work/endgame-expanded/endgame-expanded/endgame_expanded.zip
+          path: /home/runner/work/endgame-expanded/endgame-expanded/endgame_expanded/endgame_expanded.zip
           archive: false
           
         
