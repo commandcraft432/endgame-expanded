@@ -13,9 +13,7 @@ jobs:
       - name: cd to datapack folder
         run: cd /home/runner/work/endgame-expanded/endgame-expanded/endgame_expanded
       - name: Create Zipfile
-        uses: montudor/action-zip@v1.0.0
-        with:
-          args: cd endgame_expanded; zip -qq -r endgame_expanded.zip *
+        run: cd /home/runner/work/endgame-expanded/endgame-expanded/endgame_expanded; zip -qq -r endgame_expanded.zip *
       - name: Show Tree
         uses: jaywcjlove/github-action-folder-tree@v1.2.0
         with:
