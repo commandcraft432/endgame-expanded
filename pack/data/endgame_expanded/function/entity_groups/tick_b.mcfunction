@@ -1,1 +1,0 @@
-$execute at @e[scores={endgame_expanded.entity_groups.core_id.a=$(a),endgame_expanded.entity_groups.core_id.b=$(b),endgame_expanded.entity_groups.core_id.c=$(c)},limit=1] run tp @s ~$(x) ~$(y) ~$(z)

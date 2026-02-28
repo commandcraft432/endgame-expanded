@@ -1,3 +1,0 @@
-$execute if data storage endgame_expanded:data version{stage:"release"} run return run data modify storage endgame_expanded:data version.display set value "$(major).$(minor).$(patch)"
-$execute unless data storage endgame_expanded:data version{stage:"release"} unless data storage endgame_expanded:data version{iteration:0} run return run data modify storage endgame_expanded:data version.display set value "$(major).$(minor).$(patch)-$(stage).$(iteration)"
-$execute unless data storage endgame_expanded:data version{stage:"release"} run return run data modify storage endgame_expanded:data version.display set value "$(major).$(minor).$(patch)-$(stage)"

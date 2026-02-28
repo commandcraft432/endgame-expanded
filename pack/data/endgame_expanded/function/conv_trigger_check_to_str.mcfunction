@@ -1,1 +1,0 @@
-$data modify storage endgame_expanded:function_args trigger_check_str set value "$(trigger_check_num)"

@@ -1,4 +1,0 @@
-data merge entity @s {data:{"endgame_expanded:entity":"goliath_birdeater_projectile","endgame_expanded:entity_data":{mob_spawned:false}},start_interpolation:1,interpolation_duration:1,teleport_duration:1,transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[1f,1f,1f]},block_state:{Name:"minecraft:cobweb"}}
-scoreboard players set @s endgame_expanded.hit_delay 5
-data modify entity @s Rotation set from entity @n[type=arrow,nbt={weapon:{components:{"minecraft:custom_data":{"endgame_expanded:item":"silkwoven_bow"}}}}] Rotation 
-execute rotated as @p run rotate @s ~ ~
