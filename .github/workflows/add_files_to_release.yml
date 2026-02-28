@@ -17,7 +17,7 @@ jobs:
           path: /home/runner/work/endgame-expanded/endgame-expanded/endgame_expanded
           directory: /home/runner/work/endgame-expanded/endgame-expanded/endgame_expanded
           type: zip
-          custom: -j
+          command: cd /home/runner/work/endgame-expanded/endgame-expanded/endgame_expanded
       - name: Upload Artifact
         uses: actions/upload-artifact@v7.0.0
         with:
