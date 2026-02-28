@@ -1,7 +1,6 @@
 name: Add Files to Release
 on:
-  release:
-    types: created
+  workflow_run
 
 
 jobs:
