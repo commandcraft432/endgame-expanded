@@ -23,7 +23,7 @@ jobs:
       - name: Upload Artifact
         uses: actions/upload-artifact@v7.0.0
         with:
-          path: /home/runner/work/endgame-expanded/endgame-expanded/endgame_expanded/endgame_expanded.zip
+          path: /home/runner/work/endgame-expanded/endgame-expanded/endgame_expanded.zip
           archive: false
           
         
