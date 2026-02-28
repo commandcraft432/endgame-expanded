@@ -1,8 +1,5 @@
 name: Add Files to Release
-on:
-  workflow_run:
-    workflows: ["Create Zipfile"]
-
+on: workflow_dispatch
 
 jobs:
   zip_file:
