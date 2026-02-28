@@ -1,0 +1,9 @@
+{
+  "recommendations": [
+    "spgoding.datapack-language-server",
+    "minecraftcommands.syntax-mcfunction",
+    "chencmd.mc-datapack-utility",
+    "misodee.vscode-mcdoc",
+    "misodee.vscode-nbt"
+  ]
+}
