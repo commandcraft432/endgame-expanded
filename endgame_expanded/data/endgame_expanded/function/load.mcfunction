@@ -59,6 +59,6 @@ data modify storage endgame_expanded:data was_installed set value true
 execute if data storage endgame_expanded:data settings{always_newly_installed:true} run data modify storage endgame_expanded:data was_installed set value false
 
 # Version
-data modify storage endgame_expanded:data version set value {major:1,minor:0,patch:0,stage:'release',iteration:0}
+data modify storage endgame_expanded:data version set value {major:1,minor:1,patch:0,stage:'release',iteration:0}
 
 function endgame_expanded:version_change with storage endgame_expanded:data version
