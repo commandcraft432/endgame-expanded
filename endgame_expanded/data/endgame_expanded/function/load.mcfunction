@@ -51,8 +51,9 @@ execute unless data storage endgame_expanded:data {was_installed:true} run score
 execute unless data storage endgame_expanded:data {was_installed:true} run scoreboard objectives modify endgame_expanded.deaths numberformat styled {color:"red"}
 execute unless data storage endgame_expanded:data {was_installed:true} run scoreboard objectives setdisplay list endgame_expanded.deaths
 
-# Change Gamerule
+# Change Gamerules
 execute unless data storage endgame_expanded:data {was_installed:true} run gamerule send_command_feedback false
+execute unless data storage endgame_expanded:data {was_installed:true} run gamerule keep_inventory true
 
 # Installation
 data modify storage endgame_expanded:data was_installed set value true
