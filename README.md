@@ -1,5 +1,5 @@
 ###### NOT AN OFFICIAL MINECRAFT DATAPACK. NOT APPROVED BY OR ASSOCIATED WITH MOJANG OR MICROSOFT.
-
+[![modrinth](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/available/modrinth_vector.svg)](https://modrinth.com/project/262wunFV)
 # Endgame Expanded
 
 The datapack to lengthen your Minecraft playthrough!
